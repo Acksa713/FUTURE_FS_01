@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Professional Portfolio Website">
+    <meta name="keywords" content="Portfolio, Web Developer, HTML CSS JavaScript">
+    <meta name="author" content="ACKSA MARIA">
+
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+
+            <h1 class="logo">My Portfolio</h1>
+
+            <ul class="nav-links">
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#projects">Projects</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <h2>Hello, I'm <span>Acksa Maria</span></h2>
+
+            <p>
+                Frontend Developer | UI Designer |  B.Tech Computer Science Student  |  Tech Enthusiast
+            </p>
+
+            <button onclick="scrollToProjects()">
+                View Projects
+            </button>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="PHOTO.jpeg" alt="Profile Image">
+
+        </div>
+
+    </section>
+
+    <section id="projects" class="projects">
+
+        <h2>My Projects</h2>
+
+        <div class="project-container">
+
+            <div class="project-card">
+
+                <h3>Digital Portfolio Website</h3>
+
+                <p>
+                    A modern responsive portfolio website with login validation, dark mode, and animations.              
+                </p>
+
+                <a href="https://acksa713.github.io/Acksa713.github.io-Digital-portfolio/">Live Demo</a>
+
+            </div>
+
+            <div class="project-card">
+
+                <h3>Animated Login</h3>
+
+                <p>
+                    Modern animated login page with form validation.
+                </p>
+
+                <a href="https://acksa713.github.io/Animated-Login/">Live Demo</a>
+
+            </div>
+
+            <div class="project-card">
+
+                <h3>Student Mark Calculator</h3>
+
+                <p>
+                    A simple application to calculate student marks, total, and average.
+                </p>
+
+                <a href="https://acksa713.github.io/Acksa713.github.io-Student-mark-calculator/">Live Demo</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="about" class="about">
+
+        <h2>About Me</h2>
+
+        <p>
+           I am a computer science student with a strong interest in web development, programming and UI/UX design. I enjoy building responsive and user-friendly websites using HTML, CSS, and JavaScript. I’m passionate about learning new technologies and improving my problem-solving skills through real-world projects. My goal is to become a full-stack developer and contribute to innovative digital solutions.
+       </p>
+
+       <br>
+
+        <h3>Skills</h3>
+
+        <div class="skills">
+
+            <span>HTML</span>
+
+            <span>CSS</span>
+
+            <span>JavaScript</span>
+
+            <span>Responsive Design</span>
+            
+            <span>Python</span>
+
+            <span>C</span>
+
+        </div>
+
+        <a href="Resume.pdf" class="resume-btn" download>
+            Download Resume
+        </a>
+
+    </section>
+
+    <section id="contact" class="contact">
+
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+
+            <input type="text" id="name" placeholder="Your Name" required>
+
+            <input type="email" id="email" placeholder="Your Email" required>
+
+            <textarea id="message"
+                placeholder="Your Message"
+                required></textarea>
+
+            <button type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+        <p id="success-msg"></p>
+
+    </section>
+
+    <footer>
+
+        <p>
+            © 2026 Acksa Maria | All Rights Reserved
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
